@@ -1,6 +1,6 @@
-using EncontroRemoto5.Enumeradores;
+using EncontroRemoto6.Enumeradores;
 
-namespace EncontroRemoto5.Interfaces
+namespace EncontroRemoto6.Interfaces
 {
     public interface IPessoaFisica
     {

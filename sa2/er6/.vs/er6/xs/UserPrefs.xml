@@ -1,3 +1,34 @@
 ﻿<Properties StartupConfiguration="{667BDE22-CC1A-4069-A49C-013756E6E705}|Default">
+  <MonoDevelop.Ide.ItemProperties.er6 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Classes/PessoaFisica.cs">
+    <Files>
+      <File FileName="Program.cs" Line="33" Column="75" />
+      <File FileName="Classes/Pessoa.cs" Line="16" Column="48" />
+      <File FileName="Classes/PessoaFisica.cs" Line="15" Column="1" />
+      <File FileName="Classes/PessoaJuridica.cs" Line="30" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="er6" expanded="True">
+            <Node name="er6" expanded="True">
+              <Node name="Classes" expanded="True">
+                <Node name="PessoaFisica.cs" selected="True" />
+              </Node>
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

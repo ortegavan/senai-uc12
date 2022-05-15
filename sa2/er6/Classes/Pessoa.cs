@@ -1,4 +1,4 @@
-﻿namespace EncontroRemoto5.Classes
+﻿namespace EncontroRemoto6.Classes
 {
     public abstract class Pessoa
     {

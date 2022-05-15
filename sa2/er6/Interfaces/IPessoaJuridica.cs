@@ -1,4 +1,4 @@
-namespace EncontroRemoto5.Interfaces
+namespace EncontroRemoto6.Interfaces
 {
     public interface IPessoaJuridica
     {

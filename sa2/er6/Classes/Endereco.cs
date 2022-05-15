@@ -1,6 +1,6 @@
-using EncontroRemoto5.Enumeradores;
+using EncontroRemoto6.Enumeradores;
 
-namespace EncontroRemoto5.Classes
+namespace EncontroRemoto6.Classes
 {
     public sealed class Endereco
     {

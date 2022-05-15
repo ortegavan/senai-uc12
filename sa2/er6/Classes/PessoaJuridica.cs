@@ -1,7 +1,7 @@
-﻿using EncontroRemoto5.Enumeradores;
-using EncontroRemoto5.Interfaces;
+﻿using EncontroRemoto6.Enumeradores;
+using EncontroRemoto6.Interfaces;
 
-namespace EncontroRemoto5.Classes
+namespace EncontroRemoto6.Classes
 {
     public sealed class PessoaJuridica: Pessoa, IPessoaJuridica
     {
