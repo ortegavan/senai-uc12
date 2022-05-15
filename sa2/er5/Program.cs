@@ -9,7 +9,7 @@ ExibirMenu(ConsoleColor.Green, espera);
 
 var termino = DateTime.Now.Subtract(inicio);
 
-Spin(" FINALIZANDO ", $" Obrigado por utilizar nosso sistema! espera de uso: { Math.Round(termino.TotalSeconds, 0) } segundos", ConsoleColor.Magenta, espera);
+Spin(" FINALIZANDO ", $" Obrigado por utilizar nosso sistema! Tempo de uso: { Math.Round(termino.TotalSeconds, 0) } segundos", ConsoleColor.Magenta, espera);
 
 static void CadastrarPF(int espera)
 {
@@ -103,19 +103,13 @@ static void ExibirBoasVindas(ConsoleColor cor)
     Console.ForegroundColor = cor;
 
 
-    Console.WriteLine(@$"                                                            
-                    88      ,adba,                      ad88  
-                    """"      8I  I8                     d8""    
-                            ""8bdP'                     88     
-        8b,dPPYba,  88      ,d8""8b  88    8b,dPPYba, MM88MMM  
-        88P'    ""8a 88    .dP'   Yb,8I    88P'    ""8a  88     
-        88       d8 88    8P      888'    88       d8  88     
-        88b,   ,a8"" 88    8b,   ,dP8b     88b,   ,a8""  88     
-        88`YbbdP""'  88    `Y8888P""  Yb    88`YbbdP""'   88     
-        88         ,88                    88                  
-        88       888P""                    88
+    Console.WriteLine(@$"
 
-
+  ____          _           _               ____  _____    ___     ____     ___ 
+ / ___|__ _  __| | __ _ ___| |_ _ __ ___   |  _ \|  ___|  ( _ )    |  _ \   | |
+| |   / _` |/ _` |/ _` / __| __| '__/ _ \  | |_) | |_     / _ \/\  | |_) |  | |
+| |__| (_| | (_| | (_| \__ \ |_| | | (_) | |  __/|  _|   | (_>  <  |  __/ |_| |
+ \____\__,_|\__,_|\__,_|___/\__|_|  \___/  |_|   |_|      \___/\/  |_|   \___/ 
 
     Bem-vindo ao sistema de cadastro de pessoa física e jurídica
 
