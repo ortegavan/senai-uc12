@@ -72,6 +72,12 @@ static void CadastrarPF(ConsoleColor cor, IList<PessoaFisica> pfs)
     pf.Enderecos.Add(endereco);
     pfs.Add(pf);
 
+    using (var sw = File.AppendText("PessoaFisica.csv"))
+    {
+        sw.WriteLine($"{ pf.Nome }, { pf.CPF }, { pf.DataNascimento }");
+        sw.Close();
+    }
+
     Console.ForegroundColor = cor;
     Console.WriteLine();
     Console.WriteLine("~ Cadastro efetuado com sucesso! ~");
@@ -153,6 +159,12 @@ static void CadastrarPJ(ConsoleColor cor, IList<PessoaJuridica> pjs)
 
     pj.Enderecos.Add(endereco);
     pjs.Add(pj);
+
+    using (var sw = File.AppendText("PessoaJuridica.csv"))
+    {
+        sw.WriteLine($"{ pj.RazaoSocial }, { pj.CNPJ }");
+        sw.Close();
+    }
 
     Console.ForegroundColor = cor;
     Console.WriteLine();
